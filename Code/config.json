@@ -1,1 +1,20 @@
-
+{
+  "input_CSV_Files": {
+    "charges": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Charges_use.csv",
+    "damages": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Damages_use.csv",
+    "endorse": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Endorse_use.csv",
+    "primary_person": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Primary_Person_use.csv",
+    "units": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Units_use.csv",
+    "restrict": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Restrict_use.csv"
+  },
+  "OutputFiles": {
+    "case1": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis1", "output_format":  "parquet","file_name": "analysis1"},
+    "case2": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis2", "output_format":  "parquet","file_name": "analysis2"},
+    "case3": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis3", "output_format":  "parquet","file_name": "analysis3"},
+    "case4": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis4", "output_format":  "parquet","file_name": "analysis4"},
+    "case5": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis5", "output_format":  "parquet","file_name": "analysis5"},
+    "case6": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis6", "output_format":  "parquet","file_name": "analysis6"},
+    "case7": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis7", "output_format":  "parquet","file_name": "analysis7"},
+    "case8": {"outputfilepath": "C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis8", "output_format":  "parquet","file_name": "analysis8"}
+  }
+}
