@@ -1,0 +1,79 @@
+2023-10-19 20:55:06,653 - logger - INFO - Initialising variables
+2023-10-19 20:55:06,653 - logger - INFO - Reading configuration file
+2023-10-19 20:55:06,654 - logger - INFO - Succesfully read the configuration file and returned the configuration dictionary
+2023-10-19 20:55:06,654 - logger - INFO - Passing inputs from configuration dictionary to convert_csv_to+df function
+2023-10-19 20:55:06,654 - logger - INFO - Converting to dataframe for the file charges.csv
+2023-10-19 20:55:12,653 - logger - INFO - Successfully read the input file C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Charges_use.csv
+2023-10-19 20:55:12,653 - logger - INFO - Successfully converted csv file to dataframe for the file charges.csv
+2023-10-19 20:55:12,654 - logger - INFO - df_charges.show()
+2023-10-19 20:55:12,654 - logger - INFO - Converting to dataframe for the file damages.csv
+2023-10-19 20:55:12,930 - logger - INFO - Successfully read the input file C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Damages_use.csv
+2023-10-19 20:55:12,930 - logger - INFO - Successfully converted csv file to dataframe for the file damages.csv
+2023-10-19 20:55:12,930 - logger - INFO - df_damages.show()
+2023-10-19 20:55:12,930 - logger - INFO - Converting to dataframe for the file endorse.csv
+2023-10-19 20:55:13,180 - logger - INFO - Successfully read the input file C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Endorse_use.csv
+2023-10-19 20:55:13,180 - logger - INFO - Successfully converted csv file to dataframe for the file endorse.csv
+2023-10-19 20:55:13,181 - logger - INFO - df_endorse.show()
+2023-10-19 20:55:13,181 - logger - INFO - Converting to dataframe for the file primary_person.csv
+2023-10-19 20:55:13,445 - logger - INFO - Successfully read the input file C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Primary_Person_use.csv
+2023-10-19 20:55:13,445 - logger - INFO - Successfully converted csv file to dataframe for the file primary_person.csv
+2023-10-19 20:55:13,445 - logger - INFO - df_primary_person.show()
+2023-10-19 20:55:13,445 - logger - INFO - Converting to dataframe for the file units.csv
+2023-10-19 20:55:13,708 - logger - INFO - Successfully read the input file C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Units_use.csv
+2023-10-19 20:55:13,709 - logger - INFO - Successfully converted csv file to dataframe for the file units.csv
+2023-10-19 20:55:13,709 - logger - INFO - df_units.show()
+2023-10-19 20:55:13,709 - logger - INFO - Converting to dataframe for the file restrict.csv
+2023-10-19 20:55:13,938 - logger - INFO - Successfully read the input file C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/input_files/Restrict_use.csv
+2023-10-19 20:55:13,939 - logger - INFO - Successfully converted csv file to dataframe for the file restrict.csv
+2023-10-19 20:55:13,939 - logger - INFO - df_restrict.show()
+2023-10-19 20:55:13,939 - logger - INFO - Started analysing all the cases
+2023-10-19 20:55:13,940 - logger - INFO - Case 1 : Find the number of crashes (accidents) in which number of persons killed are male?
+2023-10-19 20:55:13,940 - logger - INFO - Case 2 : How many two wheelers are booked for crashes?
+2023-10-19 20:55:13,941 - logger - INFO - Case 3 : Which state has highest number of accidents in which females are involved? 
+2023-10-19 20:55:13,941 - logger - INFO - Case 4 : Which are the Top 5th to 15th VEH_MAKE_IDs that contribute to a largest number of injuries including death
+2023-10-19 20:55:13,943 - logger - INFO - Case 5: For all the body styles involved in crashes, mention the top ethnic user group of each unique body style  
+2023-10-19 20:55:13,944 - logger - INFO - Case 6: Among the crashed cars, what are the Top 5 Zip Codes with highest number crashes with alcohols as the contributing factor to a crash (Use Driver Zip Code)
+2023-10-19 20:55:13,947 - logger - INFO - Count of Distinct Crash IDs where No Damaged Property was observed and Damage Level (VEH_DMAG_SCL~) is above 4 and car avails Insurance
+2023-10-19 20:55:13,956 - logger - INFO - Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, used top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data)
+2023-10-19 20:55:24,537 - logger - INFO - Result : None
+2023-10-19 20:55:24,537 - logger - INFO - SUccessfully executed Case 1 Analysis
+2023-10-19 20:55:24,537 - logger - INFO - Calling write to file for case 1 analysis
+2023-10-19 20:55:24,537 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis1/analysis1_20231019205524.parquet
+2023-10-19 20:55:24,576 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis1/analysis1_20231019205524.parquet
+2023-10-19 20:55:24,576 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:24,580 - logger - INFO - Result : None
+2023-10-19 20:55:24,580 - logger - INFO - SUccessfully executed Case 2 Analysis
+2023-10-19 20:55:24,580 - logger - INFO - Calling write to file for case 2 analysis
+2023-10-19 20:55:24,580 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis2/analysis2_20231019205524.parquet
+2023-10-19 20:55:24,591 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis2/analysis2_20231019205524.parquet
+2023-10-19 20:55:24,591 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:24,624 - logger - INFO - Result : None
+2023-10-19 20:55:24,625 - logger - INFO - SUccessfully executed Case 3 analysis
+2023-10-19 20:55:24,625 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis3/analysis3_20231019205524.parquet
+2023-10-19 20:55:24,637 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis3/analysis3_20231019205524.parquet
+2023-10-19 20:55:24,637 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:26,488 - logger - INFO - Result : None
+2023-10-19 20:55:26,488 - logger - INFO - SUccessfully executed Case 4 analysis
+2023-10-19 20:55:26,488 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis4/analysis4_20231019205526.parquet
+2023-10-19 20:55:26,492 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis4/analysis4_20231019205526.parquet
+2023-10-19 20:55:26,492 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:27,135 - logger - INFO - Result : None
+2023-10-19 20:55:27,136 - logger - INFO - SUccessfully executed Case 6 analysis
+2023-10-19 20:55:27,136 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis6/analysis6_20231019205527.parquet
+2023-10-19 20:55:27,140 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis6/analysis6_20231019205527.parquet
+2023-10-19 20:55:27,140 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:27,789 - logger - INFO - Result : None
+2023-10-19 20:55:27,789 - logger - INFO - SUccessfully executed Case 5 analysis
+2023-10-19 20:55:27,790 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis5/analysis5_20231019205527.parquet
+2023-10-19 20:55:27,794 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis5/analysis5_20231019205527.parquet
+2023-10-19 20:55:27,795 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:29,213 - logger - INFO - Result : None
+2023-10-19 20:55:29,213 - logger - INFO - SUccessfully executed Case 7 analysis
+2023-10-19 20:55:29,213 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis7/analysis7_20231019205529.parquet
+2023-10-19 20:55:29,219 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis7/analysis7_20231019205529.parquet
+2023-10-19 20:55:29,219 - logger - INFO - Write to file status: Success
+2023-10-19 20:55:30,112 - logger - INFO - Result : None
+2023-10-19 20:55:30,113 - logger - INFO - SUccessfully executed Case 8 analysis
+2023-10-19 20:55:30,113 - logger - INFO - C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis8/analysis8_20231019205530.parquet
+2023-10-19 20:55:30,116 - logger - INFO - Written the file in the given path :  C:/Users/Harshitha/PycharmProjects/bcg_case_study/venv/Dataset/output_files/analysis8/analysis8_20231019205530.parquet
+2023-10-19 20:55:30,117 - logger - INFO - Write to file status: Success
