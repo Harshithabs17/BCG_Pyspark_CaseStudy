@@ -56,7 +56,7 @@ project_directory/
 │   │   │   ├── analysis8/
 │   │   │   │   ├── analysis8_current_time.parquet
 │   │   │
-│   │   ├── README.md
+│   ├── README.md
 
 ```
 
