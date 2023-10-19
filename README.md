@@ -21,6 +21,7 @@ project_directory/
 │   │   ├── main.py
 │   │   ├── io_utils.py
 │   │   ├── logger.py
+|   |   ├──carcrashanalysis_<current_time>.log
 │   │
 │   ├── dataset/
 │   │   ├── input_files/
@@ -109,6 +110,9 @@ Update the input file directory in the yaml file and file names.
 
 Note: No need to handle in code, if any files name gets renamed
 
+### Output File
+
+Here as a result, it creates 8 output file as a analysis result and 1 log file with carcrashanalysis_<current_time>.log to capture the flow/working of the code.
 
 ### Execution Steps [Local]:
 
